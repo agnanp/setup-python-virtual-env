@@ -21,10 +21,10 @@
 - Update ~/.bashrc 
 
 - add the following lines to your ~/.bashrc 
-<pre><code># virtualenv and virtualenvwrapper</code></pre>
-<pre><code>export WORKON_HOME=$HOME/.virtualenvs</code></pre>
-<pre><code>export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3</code></pre>
-<pre><code>source /usr/local/bin/virtualenvwrapper.sh</code></pre>
+<pre><code># virtualenv and virtualenvwrapper
+export WORKON_HOME=$HOME/.virtualenvs
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
+source /usr/local/bin/virtualenvwrapper.sh</code></pre>
 
 - source ~/.bashrc
 <pre><code>source ~/.bashrc</code></pre>
