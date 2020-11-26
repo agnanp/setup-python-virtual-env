@@ -1,22 +1,22 @@
 # Setup Python 3 Virtual Environment
 
 - Update System
-<pre><code>sudo apt-get update</code></pre>
-<pre><code>sudo apt-get upgrade</code></pre>
+<pre><code>$ sudo apt-get update</code></pre>
+<pre><code>$ sudo apt-get upgrade</code></pre>
 
 - Install Developer Tools
-<pre><code>sudo apt-get install build-essential cmake unzip pkg-config</code></pre>
+<pre><code>$ sudo apt-get install build-essential cmake unzip pkg-config</code></pre>
 
 - Install Python 3 Development Headers
-<pre><code>sudo apt-get install python3-dev</code></pre>
+<pre><code>$ sudo apt-get install python3-dev</code></pre>
 
 - Install Pip
-<pre><code>wget https://bootstrap.pypa.io/get-pip.py</code></pre>
-<pre><code>sudo python3 get-pip.py</code></pre>
+<pre><code>$ wget https://bootstrap.pypa.io/get-pip.py</code></pre>
+<pre><code>$ sudo python3 get-pip.py</code></pre>
 
 - Install virtualenv and virtualenvwrapper
-<pre><code>sudo pip install virtualenv virtualenvwrapper</code></pre>
-<pre><code>sudo rm -rf ~/get-pip.py ~/.cache/pip</code></pre>
+<pre><code>$ sudo pip install virtualenv virtualenvwrapper</code></pre>
+<pre><code>$ sudo rm -rf ~/get-pip.py ~/.cache/pip</code></pre>
 
 - Update ~/.bashrc 
 
@@ -27,10 +27,10 @@ export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 source /usr/local/bin/virtualenvwrapper.sh</code></pre>
 
 - source ~/.bashrc
-<pre><code>source ~/.bashrc</code></pre>
+<pre><code>$ source ~/.bashrc</code></pre>
 
 - Create a virtual environment
-<pre><code>mkvirtualenv nan -p python3</code></pre>
+<pre><code>$ mkvirtualenv nan -p python3</code></pre>
 
 - verify the virtual environment using workon
-<pre><code>workon nan</code></pre>
+<pre><code>$ workon nan</code></pre>
